@@ -1,0 +1,80 @@
+
+/* REACSTORY */
+
+.cadreinstar {
+	width:380px;
+	background:var(--bginstars);
+	margin-left:auto;
+	margin-right:auto;
+	padding:0 10px 10px 10px
+	}
+
+.hautinstar {
+	background:var(--hautr);
+	height: 34px;
+	width:156px;
+	background-size: 156px;
+	margin-left:-3px;
+	margin-bottom:-5px}
+
+.iconinstar{
+	width:37px; 
+	height:37px;
+	object-fit:cover;
+	border-radius:90px;
+	padding:10px;
+	margin-top:-0px;
+	margin-left:4px
+	}
+
+.reac{
+	width: 270px;
+	font-size: 12px;
+	font-family:arial;
+	line-height:12px;
+	margin-left:-3px;
+	margin-top:10px;
+	background:var(--bgreac);
+	border-radius:30px;
+	padding:14px}
+
+.reac2{
+	margin-left:70px;
+	margin-bottom:-10px;
+	width: 270px;
+	font-size: 12px;
+	font-family:arial;
+	line-height:12px;
+	background: linear-gradient(#8F2ED5a1, #6940F4d1);
+	border-radius:30px;
+	padding:14px;
+	color:#fff}
+
+.basreacs {
+	background:var(--basr);
+	height: 62px;
+	width:400px;
+	background-size: 400px;
+	margin-left:-10px;
+	margin-top:4px}
+	hashp {color:#3E4BC5}
+
+:root {
+	--bginstars:#fff;
+	--bginstar:#fff;
+	--hautr:url(https://i.imgur.com/HYD3l4C.png);
+	--basr:url(https://i.imgur.com/K8jHmNP.png);
+	--bgreac:#EFEFEF
+	}
+
+[data-color-scheme="dark"]{
+	--bginstars:#000;
+	--hautr:url(https://i.imgur.com/SocuvuZ.png);
+	--basr:url(https://i.imgur.com/IxSXgSN.png);
+	--bgreac:#262626
+	}
+	
+@import url('https://fonts.googleapis.com/css?family=Inter:400,400i,700,700i,900,900i');}
+
+
+
